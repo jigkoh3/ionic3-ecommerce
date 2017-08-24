@@ -56,6 +56,10 @@ import { ValidatorsModule } from '../components/validators/validators.module';
 
 import { LanguageService } from '../providers/language/language.service';
 import { TabsNavigationPage } from "../pages/tabs-navigation/tabs-navigation";
+import { SearchPage } from "../pages/search/search";
+import { CartPage } from "../pages/cart/cart";
+import { ProfilePage } from "../pages/profile/profile";
+import { FavoritePage } from "../pages/favorite/favorite";
 
 
 export function createTranslateLoader(http: Http) {
@@ -67,8 +71,12 @@ export function createTranslateLoader(http: Http) {
   declarations: [
     MyApp,
     WalkthroughPage,
-    HomePage,
     TabsNavigationPage,
+    HomePage,
+    SearchPage,
+    CartPage,
+    ProfilePage,
+    FavoritePage,
 
     PreloadImage,
     BackgroundImage,
@@ -99,6 +107,10 @@ export function createTranslateLoader(http: Http) {
     WalkthroughPage,
     TabsNavigationPage,
     HomePage,
+    SearchPage,
+    CartPage,
+    ProfilePage,
+    FavoritePage
   ],
   providers: [
     // GoogleMapsService,
