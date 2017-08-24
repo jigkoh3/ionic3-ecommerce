@@ -5,13 +5,12 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { Observable } from 'rxjs/Observable';
 
 // import { TabsNavigationPage } from '../pages/tabs-navigation/tabs-navigation';
-// import { FormsPage } from '../pages/forms/forms';
-// import { LayoutsPage } from '../pages/layouts/layouts';
 import { WalkthroughPage } from '../pages/walkthrough/walkthrough';
-// import { SettingsPage } from '../pages/settings/settings';
-// import { FunctionalitiesPage } from '../pages/functionalities/functionalities';
+import { HomePage } from "../pages/home/home";
 
 import { TranslateService, LangChangeEvent } from '@ngx-translate/core';
+import { TabsNavigationPage } from "../pages/tabs-navigation/tabs-navigation";
+
 
 @Component({
   selector: 'app-root',
@@ -22,9 +21,10 @@ export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
   // make WalkthroughPage the root (or first) page
-  rootPage: any = WalkthroughPage;
+  //rootPage: any = WalkthroughPage;
   // rootPage: any = FunctionalitiesPage;
-  // rootPage: any = TabsNavigationPage;
+  //  rootPage: any = HomePage;
+  rootPage: any = TabsNavigationPage;
   textDir: string = "ltr";
 
   pages: Array<{title: any, icon: string, component: any}>;

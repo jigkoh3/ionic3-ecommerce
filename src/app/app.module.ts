@@ -6,6 +6,7 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { Http } from '@angular/http';
 
 import { WalkthroughPage } from '../pages/walkthrough/walkthrough';
+import { HomePage } from "../pages/home/home";
 
 
 import { PreloadImage } from '../components/preload-image/preload-image';
@@ -54,6 +55,8 @@ import { VideoPlayerModule } from '../components/video-player/video-player.modul
 import { ValidatorsModule } from '../components/validators/validators.module';
 
 import { LanguageService } from '../providers/language/language.service';
+import { TabsNavigationPage } from "../pages/tabs-navigation/tabs-navigation";
+
 
 export function createTranslateLoader(http: Http) {
 	return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -64,6 +67,8 @@ export function createTranslateLoader(http: Http) {
   declarations: [
     MyApp,
     WalkthroughPage,
+    HomePage,
+    TabsNavigationPage,
 
     PreloadImage,
     BackgroundImage,
@@ -92,6 +97,8 @@ export function createTranslateLoader(http: Http) {
   entryComponents: [
     MyApp,
     WalkthroughPage,
+    TabsNavigationPage,
+    HomePage,
   ],
   providers: [
     // GoogleMapsService,
