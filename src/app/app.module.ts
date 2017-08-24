@@ -62,6 +62,8 @@ import { ProfilePage } from "../pages/profile/profile";
 import { FavoritePage } from "../pages/favorite/favorite";
 import { ListScollXComponent } from '../components/list-scoll-x/list-scoll-x';
 import { ListGridComponent } from '../components/list-grid/list-grid';
+import { AdsHeaderBarComponent } from '../components/ads-header-bar/ads-header-bar';
+import { HomeService } from "../pages/home/home.service";
 
 
 export function createTranslateLoader(http: Http) {
@@ -89,7 +91,8 @@ export function createTranslateLoader(http: Http) {
     Rating,
     GoogleMap,
     ListScollXComponent,
-    ListGridComponent
+    ListGridComponent,
+    AdsHeaderBarComponent
   ],
   imports: [
     BrowserModule,
@@ -117,6 +120,7 @@ export function createTranslateLoader(http: Http) {
     FavoritePage
   ],
   providers: [
+    HomeService,
     // GoogleMapsService,
 		LanguageService,
 

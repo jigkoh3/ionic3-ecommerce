@@ -1,4 +1,11 @@
-<!-- Generated template for the ListScollXComponent component -->
-<div>
-  {{text}}
-</div>
+<ion-scroll scrollX="true" class="horizontal-categories">
+  <ion-row class="categories-row">
+    <ion-col width-30 class="horizontal-item" *ngFor="let popular of populars">
+      <preload-image [ratio]="{w:1, h:1}" [src]="popular.image" title="popular.title"></preload-image>
+      <div class="product-box">
+          <p class="txt-centr">{{popular.title}}</p>
+          <p class="txt-centr2">{{popular.title}}</p>
+      </div>
+    </ion-col>
+  </ion-row>
+</ion-scroll>

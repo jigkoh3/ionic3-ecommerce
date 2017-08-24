@@ -1,0 +1,64 @@
+{
+    "images": [
+        "./assets/images/maps/place-1.jpg",
+        "./assets/images/maps/place-2.jpg",
+        "./assets/images/maps/place-3.jpg",
+        "./assets/images/maps/place-4.jpg"
+    ],
+    "populars": [
+        {
+            "title": "Air Sports",
+            "image": "./assets/images/listing/300x300AirSports.png"
+        },
+        {
+            "title": "Water Sports",
+            "image": "./assets/images/listing/300x300WaterSports.png"
+        },
+        {
+            "title": "Beach Sports",
+            "image": "./assets/images/listing/300x300BeachSports.png"
+        },
+        {
+            "title": "Extreme Sports",
+            "image": "./assets/images/listing/300x300ExtremeSports.png"
+        },
+        {
+            "title": "Athletic Sports",
+            "image": "./assets/images/listing/300x300AthleticSports.png"
+        },
+        {
+            "title": "Combat Sports",
+            "image": "./assets/images/listing/300x300CombatSports.png"
+        }
+    ],
+    "shops": [
+        {
+            "title": "Basketball",
+            "image": "./assets/images/listing/200x200basquet.png"
+        },
+        {
+            "title": "Boxing",
+            "image": "./assets/images/listing/200x200boxeo.png"
+        },
+        {
+            "title": "Crossfit",
+            "image": "./assets/images/listing/200x200crossfit.png"
+        },
+        {
+            "title": "Futbol",
+            "image": "./assets/images/listing/200x200futbol.png"
+        },
+        {
+            "title": "Running",
+            "image": "./assets/images/listing/200x200running.png"
+        },
+        {
+            "title": "Swimming",
+            "image": "./assets/images/listing/200x200swimming.png"
+        },
+        {
+            "title": "Yoga",
+            "image": "./assets/images/listing/200x200yoga.png"
+        }
+    ]
+}

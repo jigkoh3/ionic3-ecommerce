@@ -13,7 +13,9 @@
 </ion-header>
 
 
-<ion-content padding>
+<ion-content>
+  <ads-header-bar [images]="home.images" ></ads-header-bar>
+  <h4 class="categories-title">{{'POPULAR' | translate}}</h4>
+  <list-scoll-x [populars]="home.populars"></list-scoll-x>
   <list-grid></list-grid>
-  <list-scoll-x></list-scoll-x>
 </ion-content>
