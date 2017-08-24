@@ -60,6 +60,8 @@ import { SearchPage } from "../pages/search/search";
 import { CartPage } from "../pages/cart/cart";
 import { ProfilePage } from "../pages/profile/profile";
 import { FavoritePage } from "../pages/favorite/favorite";
+import { ListScollXComponent } from '../components/list-scoll-x/list-scoll-x';
+import { ListGridComponent } from '../components/list-grid/list-grid';
 
 
 export function createTranslateLoader(http: Http) {
@@ -85,7 +87,9 @@ export function createTranslateLoader(http: Http) {
     ColorRadio,
     CounterInput,
     Rating,
-    GoogleMap
+    GoogleMap,
+    ListScollXComponent,
+    ListGridComponent
   ],
   imports: [
     BrowserModule,
