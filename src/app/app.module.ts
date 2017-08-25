@@ -64,6 +64,9 @@ import { ListScollXComponent } from '../components/list-scoll-x/list-scoll-x';
 import { ListGridComponent } from '../components/list-grid/list-grid';
 import { AdsHeaderBarComponent } from '../components/ads-header-bar/ads-header-bar';
 import { HomeService } from "../pages/home/home.service";
+import { ProductDetailPage } from "../pages/product-detail/product-detail";
+import { ShopDetailPage } from "../pages/shop-detail/shop-detail";
+import { TestComponent } from '../components/test/test';
 
 
 export function createTranslateLoader(http: Http) {
@@ -81,6 +84,8 @@ export function createTranslateLoader(http: Http) {
     CartPage,
     ProfilePage,
     FavoritePage,
+    ProductDetailPage,
+    ShopDetailPage,
 
     PreloadImage,
     BackgroundImage,
@@ -92,7 +97,8 @@ export function createTranslateLoader(http: Http) {
     GoogleMap,
     ListScollXComponent,
     ListGridComponent,
-    AdsHeaderBarComponent
+    AdsHeaderBarComponent,
+    TestComponent
   ],
   imports: [
     BrowserModule,
@@ -117,7 +123,9 @@ export function createTranslateLoader(http: Http) {
     SearchPage,
     CartPage,
     ProfilePage,
-    FavoritePage
+    FavoritePage,
+    ProductDetailPage,
+    ShopDetailPage
   ],
   providers: [
     HomeService,

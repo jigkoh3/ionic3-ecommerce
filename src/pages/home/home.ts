@@ -4,6 +4,8 @@ import { NavController, LoadingController } from 'ionic-angular';
 
 import { HomeService } from './home.service';
 import { HomeModel } from "./home.model";
+import { ProductDetailPage } from "../product-detail/product-detail";
+import { ShopDetailPage } from "../shop-detail/shop-detail";
 
 /**
  * Generated class for the HomePage page.
@@ -36,6 +38,18 @@ export class HomePage {
         this.home = data;
         this.loading.dismiss();
       });
+  }
+
+  selectedItem(e){
+    this.navCtrl.push(ProductDetailPage, e);
+  }
+
+  selectedShop(e){
+    this.navCtrl.push(ShopDetailPage, e);
+  }
+
+  xxxx(e){
+    alert(e);
   }
 
 }

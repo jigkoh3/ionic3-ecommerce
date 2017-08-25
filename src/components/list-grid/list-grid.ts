@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input, EventEmitter, Output } from '@angular/core';
 
 /**
  * Generated class for the ListGridComponent component.
@@ -12,11 +12,15 @@ import { Component } from '@angular/core';
 })
 export class ListGridComponent {
 
-  text: string;
+  @Input() items: any;
+  @Output() selectedItem: EventEmitter<any> = new EventEmitter<any>();
 
   constructor() {
-    console.log('Hello ListGridComponent Component');
-    this.text = 'Hello World';
+    console.log('Hello ListGridComponent Component with: ' + this.items);
+  }
+
+  _selectedItem(item){
+    this.selectedItem.emit(item);
   }
 
 }

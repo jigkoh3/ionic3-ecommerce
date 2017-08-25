@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 
 /**
  * Generated class for the ListScollXComponent component.
@@ -13,9 +13,14 @@ import { Component, Input } from '@angular/core';
 export class ListScollXComponent {
 
   @Input() populars: any;
+  @Output() selectedItem: EventEmitter<any> = new EventEmitter<any>();
 
   constructor() {
     console.log('Hello ListScollXComponent Component');
+  }
+
+  _selectedItem(data){
+    this.selectedItem.emit(data);
   }
 
 }
