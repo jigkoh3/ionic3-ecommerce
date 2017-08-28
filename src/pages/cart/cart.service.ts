@@ -8,7 +8,7 @@ import { CartModel } from "./cart.model";
 @Injectable()
 export class CartService {
   constructor(public http: Http) {
-    sidfjsdu
+
   }
 
   getData(): Promise<CartModel> {
