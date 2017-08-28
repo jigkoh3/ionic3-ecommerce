@@ -14,5 +14,11 @@
 
 
 <ion-content padding>
-
+  <ion-row *ngFor="let item of cart.items" (click)="gotoProductDetail(item)">
+    <ion-col >
+      {{item.product.name}}
+      {{item.price}}
+      {{item.qty}}
+    </ion-col>
+  </ion-row>
 </ion-content>

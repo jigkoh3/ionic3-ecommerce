@@ -1,0 +1,25 @@
+{
+    "items": [
+        {
+            "product": {
+                "name": "Air Sports",
+                "image": "./assets/images/listing/300x300AirSports.png",
+                "price": 150
+            },
+            "price": 150,
+            "qty": 2,
+            "amount": 300
+        },
+        {
+            "product": {
+                "name": "Water Sports",
+                "image": "./assets/images/listing/300x300WaterSports.png",
+                "price": 250
+            },
+            "price": 250,
+            "qty": 2,
+            "amount": 500
+        }
+    ],
+    "totalamount": 800.00
+}

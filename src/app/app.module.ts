@@ -67,6 +67,7 @@ import { HomeService } from "../pages/home/home.service";
 import { ProductDetailPage } from "../pages/product-detail/product-detail";
 import { ShopDetailPage } from "../pages/shop-detail/shop-detail";
 import { TestComponent } from '../components/test/test';
+import { CartService } from "../pages/cart/cart.service";
 
 
 export function createTranslateLoader(http: Http) {
@@ -129,6 +130,7 @@ export function createTranslateLoader(http: Http) {
   ],
   providers: [
     HomeService,
+    CartService,
     // GoogleMapsService,
 		LanguageService,
 
