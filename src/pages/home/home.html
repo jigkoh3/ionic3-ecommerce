@@ -16,7 +16,7 @@
 <ion-content>
   <ads-header-bar [images]="home.images" ></ads-header-bar>
   <h4 class="categories-title">{{'POPULAR' | translate}}</h4>
-  <list-scoll-x [populars]="home.populars" (selectedItem)="selectedItem($event)"></list-scoll-x>
+  <list-scoll-x [populars]="home.popularproducts" (selectedItem)="selectedItem($event)"></list-scoll-x>
   <h4 class="categories-title">{{'SHOP' | translate}}</h4>
-  <list-grid [items]="home.shops" (selectedItem) = "selectedShop($event)"></list-grid>
+  <list-grid [items]="home.popularshops" (selectedItem) = "selectedShop($event)"></list-grid>
 </ion-content>

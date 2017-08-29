@@ -1,64 +1,46 @@
 {
     "images": [
-        "./assets/images/maps/place-1.jpg",
-        "./assets/images/maps/place-2.jpg",
-        "./assets/images/maps/place-3.jpg",
-        "./assets/images/maps/place-4.jpg"
+        "https://th-live.slatic.net/original/2f9770b51f261b8c17ea5bbb3061e8ad.jpg",
+        "https://th-live.slatic.net/original/f282dd2746734099e75de025458d1de6.jpg"
     ],
-    "populars": [
+    "popularproducts": [
         {
-            "title": "Air Sports",
-            "image": "./assets/images/listing/300x300AirSports.png"
+            "name": "NIKE",
+            "image": "https://assets.wired.com/photos/w_1534/wp-content/uploads/2016/09/ff_nike-hyperadapt_angle_front.jpg",
+            "unitprice": 100
         },
         {
-            "title": "Water Sports",
-            "image": "./assets/images/listing/300x300WaterSports.png"
+            "name": "ADIDAS",
+            "image": "http://th-live-01.slatic.net/p/7/adidas-men-run-shoe-duramo8-bb4656-2290-1493865078-91437671-31f932a8c992f98dc9ba8c6b4dec3f6e-catalog_233.jpg",
+            "unitprice": 100
         },
         {
-            "title": "Beach Sports",
-            "image": "./assets/images/listing/300x300BeachSports.png"
+            "name": "PUMA",
+            "image": "http://gadgets.siamsport.co.th/wp-content/uploads/puma-nrgy-sneakers.jpg",
+            "unitprice": 100
         },
         {
-            "title": "Extreme Sports",
-            "image": "./assets/images/listing/300x300ExtremeSports.png"
-        },
-        {
-            "title": "Athletic Sports",
-            "image": "./assets/images/listing/300x300AthleticSports.png"
-        },
-        {
-            "title": "Combat Sports",
-            "image": "./assets/images/listing/300x300CombatSports.png"
+            "name": "ONITSUKA",
+            "image": "https://th-live-02.slatic.net/p/7/onitsuka-tiger-womens-serrano-shoes-d471l-1494928131-7120789-b60f98a3253f8a5230b4a0cf110588e1.jpg",
+            "unitprice": 100
         }
     ],
-    "shops": [
+    "popularshops": [
         {
-            "title": "Basketball",
-            "image": "./assets/images/listing/200x200basquet.png"
+            "name": "NIKE",
+            "image": "https://assets.wired.com/photos/w_1534/wp-content/uploads/2016/09/ff_nike-hyperadapt_angle_front.jpg"
         },
         {
-            "title": "Boxing",
-            "image": "./assets/images/listing/200x200boxeo.png"
+            "name": "ADIDAS",
+            "image": "http://th-live-01.slatic.net/p/7/adidas-men-run-shoe-duramo8-bb4656-2290-1493865078-91437671-31f932a8c992f98dc9ba8c6b4dec3f6e-catalog_233.jpg"
         },
         {
-            "title": "Crossfit",
-            "image": "./assets/images/listing/200x200crossfit.png"
+            "name": "PUMA",
+            "image": "http://gadgets.siamsport.co.th/wp-content/uploads/puma-nrgy-sneakers.jpg"
         },
         {
-            "title": "Futbol",
-            "image": "./assets/images/listing/200x200futbol.png"
-        },
-        {
-            "title": "Running",
-            "image": "./assets/images/listing/200x200running.png"
-        },
-        {
-            "title": "Swimming",
-            "image": "./assets/images/listing/200x200swimming.png"
-        },
-        {
-            "title": "Yoga",
-            "image": "./assets/images/listing/200x200yoga.png"
+            "name": "ONITSUKA",
+            "image": "https://th-live-02.slatic.net/p/7/onitsuka-tiger-womens-serrano-shoes-d471l-1494928131-7120789-b60f98a3253f8a5230b4a0cf110588e1.jpg"
         }
     ]
 }

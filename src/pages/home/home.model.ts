@@ -1,15 +1,16 @@
 export class HomeModel {
-    populars: Array<ProductItemModel>;
-    shops: Array<ShopItemModel>;
-    images: Array<string>;
+    images: Array<String>;
+    popularproducts: Array<ProductItemModel>;
+    popularshops: Array<ShopItemModel>;
   }
   
   export class ProductItemModel {
-    title: string;
-    image: string;
+    name: String;
+    image: String;
+    unitprice: Number;
   }
   export class ShopItemModel {
-    title: string;
-    image: string;
+    name: String;
+    image: String;
   }
   

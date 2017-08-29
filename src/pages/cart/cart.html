@@ -13,12 +13,25 @@
 </ion-header>
 
 
-<ion-content padding>
-  <ion-row *ngFor="let item of cart.items" (click)="gotoProductDetail(item)">
-    <ion-col >
-      {{item.product.name}}
-      {{item.price}}
-      {{item.qty}}
+<ion-content>
+  <form [formGroup]="counterForm" *ngFor="let item of cart.items">
+    <ion-list class="counter-list">
+      <ion-item class="counter-item">
+        <span class="counter-label">Amount</span>
+        <counter-input formControlName="counter"></counter-input>
+      </ion-item>
+    </ion-list>
+  </form>
+</ion-content>
+
+<ion-footer>
+  <ion-row class="categories-title">
+    <ion-col width-60>
+     <p>fdfgfdg</p>
+    </ion-col>
+    <ion-col width-40>
+        <p>3,000.00</p>
     </ion-col>
   </ion-row>
-</ion-content>
+  <button ion-button full color="danger">{{"PAYMENT" | translate}}</button>
+</ion-footer>

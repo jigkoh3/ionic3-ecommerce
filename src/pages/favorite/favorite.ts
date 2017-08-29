@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { Component, ViewChild } from '@angular/core';
+import { IonicPage, NavController, NavParams, Slides } from 'ionic-angular';
 
 /**
  * Generated class for the FavoritePage page.
@@ -13,12 +13,20 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'favorite.html',
 })
 export class FavoritePage {
-
+  @ViewChild('pageSlider') pageSlider: Slides;
+  tabs: any = '0';
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad FavoritePage');
   }
+  selectTab(index) {
+    this.pageSlider.slideTo(index);
+  }
+
+  changeWillSlide($event) {
+    this.tabs = $event._snapIndex.toString();
+   }
 
 }
